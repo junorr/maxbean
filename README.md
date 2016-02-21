@@ -2,7 +2,7 @@
 <p>
 MaxBean is java command line application for automatic generating JavaBeans source code from a relational database schema.
 <br> 
-Here is some goods of this project:</p>
+Here are some goods of this project:</p>
 
 <ul>
   <li>Auto generating boring JavaBeans source code.</li>
