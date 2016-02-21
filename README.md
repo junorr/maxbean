@@ -19,7 +19,7 @@ Here is some goods of this project:</p>
 +------------------------------------+
 |             MaxBean V1             |
 |  Copyright (c) 2016 Juno Roesler   |
-|      &lt;juno.roesler@bb.com.br&gt;      |
+|          &lt;juno@pserver.us&gt;      |
 |   Distributed under GNU/LGPL V3    |
 +------------------------------------+
  Notice:
