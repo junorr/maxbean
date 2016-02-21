@@ -7,7 +7,7 @@ Here are some goods of this project:</p>
 <ul>
   <li>Auto generating boring JavaBeans source code.</li>
   <li>Generate interface files for all JavaBeans.</li>
-  <li>Generate Beans factory classes for creating JabaBeans from a <code>java.sql.ResultSet</code>.</li>
+  <li>Generate Beans factory classes for creating JavaBeans from a <code>java.sql.ResultSet</code>.</li>
   <li>Automatic parse the <code>java.sql.ResultSet</code>, setting only present fields on JavaBeans.</li>
   <li>Support creating custom columns/fields not presents in the original tables.</li>
   <li>Allows to select only the desired tables in schema.</li>
