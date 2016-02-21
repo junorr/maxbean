@@ -36,22 +36,18 @@ Usage: maxbean <-d|--db-*> <-s|-f> [-c] [-h] [-i] [-I] [-k] [-o] [-t] [-v]
                         database table. The accepted format is 
                         'table1.column1=sqlType,tableN.columnN=sqlType...'
   -d (--db-config) VAL: Database connection configuration (.properties file)
-  --db-driver      VAL: Database Driver configuration 
-                        (e.g. 'com.mysql.jdbc.Driver')
+  --db-driver      VAL: Database Driver configuration (e.g. 'com.mysql.jdbc.Driver')
   --db-password    VAL: Database password
-  --db-url         VAL: Database URL connection 
-                        (e.g. 'jdbc:mysql://localhost:3306')
+  --db-url         VAL: Database URL connection (e.g. 'jdbc:mysql://localhost:3306')
   --db-user        VAL: Database user
   -f (--file)      VAL: Properties file with schema information to generate source code
   -h (--help)         : Show this help message
-  -i (--inspect)   VAL: Inspect the database and create a properties file with 
-                        schema information
+  -i (--inspect)   VAL: Inspect the database and create a properties file with schema information
   -I (--identation)VAL: Set the number of spaces for source code identation
   -k (--package)   VAL: Java package for the generated source code
   -o (--output)    VAL: Output directory for MaxBean generated files
   -s (--schema)    VAL: Database Schema to inspect
-  -t (--tables)    VAL: List of schema tables to inspect 
-                        (comma separated: 'arg1,arg2,argN...')
+  -t (--tables)    VAL: List of schema tables to inspect (comma separated: 'arg1,arg2,argN...')
   -v (--version)      : Show MaxBean version information
 
 Usage Examples:
