@@ -51,20 +51,20 @@ Usage: maxbean <-d|--db-*> <-s|-f> [-c] [-h] [-i] [-I] [-k] [-o] [-t] [-v]
   -v (--version)      : Show MaxBean version information
 
 Usage Examples:
- * Generate source code for all tables in a schema database:
-   > <b>maxbean -d db.properties -s myschema -k com.mypack.ex</b>
- * Inspect the database and generate a relative properties file:
-   > <b>maxbean -d db.properties -s myschema -i</b>
- * Generate source code from a inspection file:
-   > <b>maxbean -d db.properties -f myschema.properties -k com.mypack.ex</b>
- * Generate source code from only a couple tables:
-   > <b>maxbean -d db.properties -s myschema -k com.mypack.ex</b>
-   > ... <b>-t "table_one table_two"</b>
- * Generate source code with additional columns not present in tables:
-   > <b>maxbean -d db.properties -s myschema -k com.mypack.ex</b>
-   > ... <b>-c "table_one.col_x=int table_two.col_y=varchar table_two.col_z=date"</b>
- * Specifing database options manualy:
-   > <b>maxbean -s myschema -k com.mypack.ex</b>
-   > ... <b>--db-driver com.mysql.jdbc.Driver --db-url jdbc:mysql://localhost:3306</b>
-   > ... <b>--db-user myuser --db-password mypassword</b>
+<b> * Generate source code for all tables in a schema database:</b>
+   > maxbean -d db.properties -s myschema -k com.mypack.ex
+<b> * Inspect the database and generate a relative properties file:</b>
+   > maxbean -d db.properties -s myschema -i
+<b> * Generate source code from a inspection file:</b>
+   > maxbean -d db.properties -f myschema.properties -k com.mypack.ex
+<b> * Generate source code from only a couple tables:</b>
+   > maxbean -d db.properties -s myschema -k com.mypack.ex
+   >   -t "table_one,table_two"
+<b> * Generate source code with additional columns not present in tables:</b>
+   > maxbean -d db.properties -s myschema -k com.mypack.ex
+   >   -c "table_one.col_x=int,table_two.col_y=varchar,table_two.col_z=date"
+<b> * Specifing database options manualy:</b>
+   > maxbean -s myschema -k com.mypack.ex
+   >   --db-driver com.mysql.jdbc.Driver --db-url jdbc:mysql://localhost:3306
+   >   --db-user myuser --db-password mypassword
 </pre>
