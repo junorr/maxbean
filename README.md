@@ -8,7 +8,7 @@ Here is some goods of this project:</p>
   <li>Auto generating boring JavaBeans source code.</li>
   <li>Generate interface files for all JavaBeans.</li>
   <li>Generate Beans factory classes for creating JabaBeans from a <code>java.sql.ResultSet</code>.</li>
-  <li>Automatic parse the java.sql.ResultSet, setting only present fields on JavaBeans.</li>
+  <li>Automatic parse the <code>java.sql.ResultSet</code>, setting only present fields on JavaBeans.</li>
   <li>Support creating custom columns/fields not presents in the original tables.</li>
   <li>Allows to select only the desired tables in schema.</li>
   <li>MaxBean is open source, distributed under GNU/LGPL v3 license.</li>
