@@ -5,12 +5,12 @@ MaxBean is java command line application for automatic generating JavaBeans sour
 Here are some goods of this project:</p>
 
 <ul>
-  <li>Auto generating boring JavaBeans source code.</li>
+  <li>Automatic creation of JavaBeans boring source code.</li>
   <li>Generate interface files for all JavaBeans.</li>
-  <li>Generate Beans factory classes for creating JavaBeans from a <code>java.sql.ResultSet</code>.</li>
-  <li>Automatic parse the <code>java.sql.ResultSet</code>, setting only present fields on JavaBeans.</li>
-  <li>Support creating custom columns/fields not presents in the original tables.</li>
-  <li>Allows to select only the desired tables in schema.</li>
+  <li>Generates Bean Readers classes for creating JavaBeans from a <code>java.sql.ResultSet</code>.</li>
+  <li>Bean Readers can parse the <code>java.sql.ResultSet</code>, detecting and setting only present columns on JavaBeans.</li>
+  <li>Supports creation of custom columns/fields not present in the original tables.</li>
+  <li>Allows to select only the desired tables for source code generation.</li>
   <li>MaxBean is open source, distributed under GNU/LGPL v3 license.</li>
 </ul>
 <pre>
